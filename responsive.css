@@ -1,0 +1,51 @@
+@media screen and (max-width: 1280px){
+
+    .wrapper{
+        margin: 0 5%;
+    }
+
+    .shadow1, .shadow2{
+        display: none;
+    }
+
+    .main-header .right img{
+        max-width: 70%;
+    }
+    .o-kurse .right img{
+        max-width: 70%;
+    }
+
+    .o-kurse .footer li:first-child{
+        margin-right: 100px ;
+    }
+    .o-kurse .footer li{
+        margin-right: 20px ;
+    }
+
+    .format-zaniatii li{
+        margin-right: 50px;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    .main-header{
+        flex-wrap: wrap;
+    }
+    .main-header .left, .main-header .right{
+        width: 100%;
+    }
+    .main-header .right img{
+        float: right;
+    }
+
+    .o-kurse .row{
+        flex-wrap: wrap;
+    }
+    .o-kurse .left, .o-kurse .right{
+        width: 100%;
+    }
+
+    .o-kurse .footer li:first-child{
+        display: none;
+    }
+}

@@ -1,0 +1,406 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+/* RESET CSS
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* END RESET CSS */
+
+body{
+    font-family: 'Roboto', serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+}
+
+h1{
+    font-family: 'Roboto slab';
+    font-size: 55px;
+    line-height: 55px;
+    font-weight: 700;
+    margin: 50px 0;
+}
+
+.wrapper{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.smll-info{
+    margin-top: 5%;
+}
+
+.smll-info li{
+    float: left;
+    padding-right: 3%;
+}
+
+.main-header{
+    clear: both;
+    margin-top: 5%;
+    display: flex;
+}
+
+.main-header .left{
+    width: 60%;
+}
+
+.main-header h1{
+    font-family: 'Roboto slab';
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 81px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.main-header p{
+    padding-right: 260px;
+    line-height: 30px;
+}
+
+.main-header .right{
+    position: relative;
+    width: 40%;
+}
+
+.shadow1{
+    background-color: lightgrey;
+    position: absolute;
+    width: 274px;
+    height: 41px;
+    left: 34px;
+    top: 335px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.quote-box{
+    box-sizing: border-box;
+    max-width: 480px;
+    background-color: #1E4681;
+    color: white;
+    margin: 5% auto;
+    padding: 20px;
+    border-radius: 3%;
+}
+
+.quote{
+    font-family:'Roboto slab';
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.author{
+    text-align: right;
+    font-size: 20px;
+}
+
+main{
+    margin-top: 10%;
+}
+
+.o-kurse .row{
+    display: flex;
+}
+
+.o-kurse .left{
+    width: 60%;
+    padding-right: 40px;
+}
+
+.o-kurse .right{
+    width: 40%;
+}
+
+.o-kurse .left p{
+    line-height: 36px;
+}
+
+.o-kurse .right{
+    padding-left: 80PX; 
+    display: flex;
+}
+
+.img{
+    position: relative;
+}
+
+.shadow2{
+    background-color: lightgrey;
+    position: absolute;
+    width: 345px;
+    height: 38px;
+    left: -13px;
+    top: 294px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+.o-kurse .footer{
+    margin-top: 70px;
+}
+
+.o-kurse .footer ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.o-kurse .footer li{
+    max-width: 150px;
+    margin-right: 70px;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.o-kurse .footer li:first-child{
+    margin-right: 250px;
+}
+
+.o-kurse .footer strong{
+    font-weight: 700;
+    line-height: 42px;
+}
+
+.format-zaniatii h1{
+    margin-top: 140px;
+    margin-bottom: 80px;
+}
+
+.format-zaniatii ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.format-zaniatii li{
+    max-width: 271px;
+    margin-right: 150px;
+    font-size: 18px;
+    line-height: 23.4px;
+}
+
+.format-zaniatii p{
+    margin-top: 5px;
+}
+
+.format-zaniatii strong{
+    color: #1E4681;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 40px;
+}
+
+.chto-uznaem h1{
+    margin-top: 170px;
+    margin-bottom: 80px;
+}
+
+.chto-uznaem ul{
+    max-width: 700px;
+    list-style: disc;
+    padding-left: 30px;
+}
+
+.programma-kursa{
+    margin-bottom: 120px;
+}
+
+.programma-kursa .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.programma-kursa h1{
+    margin-top: 170px;
+    margin-bottom: 100px;
+}
+
+
+.card{
+    width: 399px;
+    border-radius: 10%;
+    box-shadow: 0 0 15px 4px lightgrey;
+    overflow: hidden;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.card .header{
+    max-height: 160px;
+    overflow: hidden;
+}
+
+.card h3{
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.card p{
+    font-size: 25px;
+    margin-top: 15px;
+    padding-right: 110px;
+}
+
+.card .content{
+    padding: 0 0 20px 20px;
+}
+
+.card:hover img{
+    transition: 0.3s;
+    transform-origin: center;
+    transform: rotate(3deg) scale(1.3);
+    filter: grayscale(100%);
+}
+
+.container-b{
+    background: #EFEFEF;
+    margin-top: 100px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+}
+
+.kurs-proshlo h1{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.alumni-card{
+    font-size: 20px;
+    max-width: 791px;
+    background-color: white;
+    border-radius: 30px;
+    padding: 50px;
+    padding-bottom: 10px;
+}
+
+.inf{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center
+}
+
+.alumni-contact{
+    margin-left: 50px;
+}
+.alumni-contact strong{
+    display: block;
+    font-family: 'Roboto slab';
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.container-c{
+    overflow: hidden;
+    background-color: #9DC9C8;
+    padding-top: 100px;
+    padding-bottom: 80px;
+}
+
+.nachalo-kursa p{
+ font-size: 25px;
+ line-height: 25px;
+ margin-bottom: 80px;
+}
+
+.nachalo-kursa span{
+    font-size: 80px;
+    line-height: 81px;
+}
+
+.nachalo-kursa li{
+    display: block;
+    float: left;
+    margin-right: 100px;
+}
+
+.nachalo-kursa p{
+    max-width: 350px;  
+    font-size: 18px;
+    font-weight: 18px;
+}
+
+.nachalo-kursa ul li strong{
+    display: block;
+    font-size: 25px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+
+footer{
+    background: black;
+    color: white;
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.f-row{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    line-height: 25px;
+}
+
+.f-row li{
+    margin-bottom: 15px;
+}
+
+.f-row li img{
+    margin-right: 15px;
+}
+
+.social-row{
+    margin-top: 20px;
+    margin-bottom: 150px;
+}
+
+.social-row img{
+    margin-right: 20px;
+}
