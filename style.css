@@ -303,7 +303,12 @@ main{
     filter: grayscale(100%);
 }
 
-.container-b{
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.testimonials{
     background: #EFEFEF;
     margin-top: 100px;
     padding-top: 10px;
@@ -342,7 +347,7 @@ main{
     margin-bottom: 20px;
 }
 
-.container-c{
+.pricing{
     overflow: hidden;
     background-color: #9DC9C8;
     padding-top: 100px;
